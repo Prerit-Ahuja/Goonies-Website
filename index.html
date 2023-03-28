@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>The Goonies</title>
+</head>
+<body>
+
+    <div class="navigation">
+        <ul class="navigation__container">
+            <li class="navigation__list"><a class="active navigation__links" href="#plot">Plot</a></li>
+            <li class="navigation__list"><a href="#goonies" class="navigation__links">Goonies</a></li>
+            <li class="navigation__list"><a href="#credits" class="navigation__links">Credits</a></li>
+            <li class="navigation__list"><a href="#gallery" class="navigation__links">Gallery</a></li>
+          </ul>
+          <div class="navigation__maindot">
+            <p class="navigation__dot">.</p>
+          </div>
+    </div>
+    
+
+    <div class="main__container">
+    <div class="parallax">
+        <img src="./img/bg-img.jpg" class="parallax__bgimg" id="bg-img">
+        <h2 class="parallax__heading"><em>The Story of</em></h2>
+        <img src="./img/title-img.png" class="parallax__title">
+        <img src="./img/outer-img.png" class="parallax__img">
+        <img src="./img/mouse.gif" class="parallax__mouse">
+        <img src="./img/buzzer.png" class="parallax__buzzer">
+    </div>
+</div>
+
+<div class="music">
+    <p>Joseph Berry</p>
+    <p>The Goonies theme song</p>
+    <div class="audio">
+        <img src="./img/playbtn.png" class="playBtn">
+        <div id="wave"></div>
+    </div>
+
+    <div class="seek__btn">
+    <div class="revindBtn">
+        <i class="fa-solid fa-backward"></i>
+    </div>
+   
+    <div class="forwardBtn">
+        <i class="fa-solid fa-forward"></i>
+    </div>
+</div>
+
+<div class="volumeChange">
+    <div class="muteBtn">
+        <i class="fa-solid fa-volume-xmark"></i>
+    </div>
+    <div class="volume">
+        <input type="range" min="0" max="1" step="0.1" value="0.8" class="volumeBtn">
+    </div>
+</div>
+</div>
+
+
+<!-- Plot -->
+<div class="plot" id="plot">
+        <h2 class="plot__heading">PLOT</h2>
+        <p class="plot__para"> Facing foreclosure of their homes in the Goon Docks area of Astoria, <br>Oregon to an expanding country club, a group of children who call <br>themselves "the Goonies" gather for a final weekend together.</p>
+        <span class="plot__line"></span>
+</div>
+
+<!-- Goonies -->
+<div class="goonies" id="goonies">
+    <div class="goonies__container">
+        <div class="goonies__zoom">
+        <img src="./img/child1.jpg" class="goonies__images">
+        <div class="goonies__description">
+            <h3 class="goonies__title1">Mikey</h3>
+            <p class="goonies__text1">More info</p>
+       </div>
+        </div>
+        <div class="goonies__zoom">
+        <img src="./img/child2.jpg" class="goonies__images">
+        <div class="goonies__description">
+            <h3 class="goonies__title2">Chunk</h3>
+            <p class="goonies__text2">More info</p>
+        </div>
+        </div>
+        <div class="goonies__zoom">
+        <img src="./img/child3.jpg" class="goonies__images">
+        <div class="goonies__description">
+            <h3 class="goonies__title3">Data</h3>
+            <p class="goonies__text3">More info</p>
+        </div>
+        </div>
+        <div class="goonies__zoom">
+        <img src="./img/child4.jpg" class="goonies__images">
+        <div class="goonies__description">
+            <h3 class="goonies__title4">Mouth</h3>
+            <p class="goonies__text4">More info</p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Rotate section -->
+
+<div class="rotate">
+    <div class="rotate__container">
+        <h2 class="rotate__text">Goonies Never Say Die</h2>
+        <img src="./Image Rotate/img1.png" class="rotate__image1">
+        <img src="./Image Rotate/img2.png" class="rotate__image2">
+        <img src="./Image Rotate/img3.png" class="rotate__image3">
+        <img src="./Image Rotate/img4.png" class="rotate__image4">
+        <img src="./Image Rotate/img5.png" class="rotate__image5">
+    </div>
+</div>
+
+<!-- Credits -->
+<div class="credits" id="credits">
+    <div class="credits__container">
+        <div class="credits__content credits__item1">
+            <div class="credits__overlap">
+            <h6 class="credits__text">1985</h6>
+            <h6 class="credits__text">1985</h6>
+        </div>
+            <div class="credits__description">
+            <p class="credits__desc">Release date</p>
+            <p class="credits__desc2">June 7, 1985</p>
+        </div>
+        </div>
+        <div class="credits__content credits__item2"><img src="./img/credit-img1.jpg" class="credits__img1"></div>
+        <div class="credits__content credits__item3"><img src="./img/credit-img2.png" class="credits__img2"></div>
+
+        <div class="credits__container2">
+            <div class="credits__content credits__item4"><img src="./img/credit-img3.png" class="credits__img3"></div>
+            <div class="credits__content credits__item5">
+                <div class="credits__overlap">
+                <h6 class="credits__text">$19M</h6>
+                <h6 class="credits__text">$19M</h6>
+            </div>
+                <div class="credits__description">
+                    <p class="credits__desc">Budget</p>
+                    <p class="credits__desc2">$19 Million</p>
+                    
+                </div>
+            </div>
+            <div class="credits__content credits__item6"><img src="./img/credit-img4.jpg" class="credits__img4"></div>
+            <div class="credits__content credits__item7">
+                <div class="credits__overlap">
+                <h6 class="credits__text">$61M</h6>
+                <h6 class="credits__text">$61M</h6>
+            </div>
+                <div class="credits__description">
+                    <p class="credits__desc">Box office</p>
+                    <p class="credits__desc2">$61 Million</p>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+
+<!-- scull section -->
+
+<div class="skull">
+    <div class="skull__container">
+        <img src="./img/skull-img.png" class="skull__image">
+        <img src="./img/people-img.png" class="skull__people">
+    </div>
+</div>
+
+<!-- Gallery -->
+
+<div class="gallery" id="gallery">
+    <div class="gallery__container">
+        <div class="gallery__content"><img src="./Image Gallery/img1.jpg" class="gallery__images"></div>
+        <div class="gallery__content">
+            <div class="gallery__grid">
+                <div class="gallery__grid__content gallery__grid__item1"><img src="./Image Gallery/img2.jpg" class="gallery__images"></div>
+                <div class="gallery__grid__content gallery__grid__item2"><img src="./Image Gallery/img3.jpg" class="gallery__images"></div>
+                <div class="gallery__grid__content gallery__grid__item3"><img src="./Image Gallery/img4.jpg" class="gallery__images"></div>  
+            </div>
+        </div>
+        <div class="gallery__content"><img src="./Image Gallery/img5.jpg" class="gallery__images"></div> 
+
+        <div class="gallery__container2">
+            <div class="gallery__container2__content gallery__container2__item1"><img src="./Image Gallery/img6.jpg" class="gallery__container2__images"></div>
+            <div class="gallery__container2__content gallery__container2__item2"><img src="./Image Gallery/img9.jpg" class="gallery__container2__images"></div>
+            <div class="gallery__container2__content gallery__container2__item4"><img src="./Image Gallery/img7.jpg" class="gallery__container2__images"></div>
+            <div class="gallery__container2__content gallery__container2__item7">
+                <div class="gallery__container2__grid">
+                    <div class="gallery__container2__grid__content"><img src="./Image Gallery/img10.jpg" class="gallery__container2__images"></div>
+                    <div class="gallery__container2__grid__content"><img src="./Image Gallery/img11.jpg" class="gallery__container2__images"></div>
+                </div>
+            </div>
+            <div class="gallery__container2__content gallery__container2__item8"><img src="./Image Gallery/img8.jpg" class="gallery__container2__images"></div>  
+            </div>
+    </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer__container">
+        <div class="footer__content">
+            <p class="footer__tagline">Share this experience</p>
+            <h2 class="footer__link">the-goonies-webflow.io</h2>
+            <a href="#" class="footer__tagline2">Back to top</p>
+        </div>
+        <p class="footer__bottom">CREATED BY PRERIT AHUJA - AXENO</p>
+    </div>
+</div>
+
+
+
+    <!-- scroll trigger CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- Wavesurfer JS -->
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
